@@ -12,6 +12,12 @@ const seedDB = require('./database/utils/seedDB');  // Import function to seed d
 // Import database instance for database connection (including database name, username, and password)
 const db = require('./database');
 
+const Campus = require('./database/models/Campus');
+const Student = require('./database/models/Student');
+
+Campus.hasMany(Student);    // Campuses can be associated with many students
+Student.belongsTo(Campus);  // Students can only be associated with one campus
+
 /* MODEL SYNCHRONIZATION & DATABASE SEEDING */
 // Set up sync and seed process
 const syncDatabase = async () => {
