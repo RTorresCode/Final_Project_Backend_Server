@@ -2,7 +2,7 @@
 Backend server code for CSCI 39548 final project (Spring '22)
 
 ## Group members
-Ramon Torres - Mightywise
+Ramon Torres - Mightywise <br/>
 Tahmina Munni - TahminaM
 
 ### Prerequisites
