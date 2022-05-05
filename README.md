@@ -1,6 +1,10 @@
 # Final_Project_Backend_Server
 Backend server code for CSCI 39548 final project (Spring '22)
 
+## Group members
+Ramon Torres - Mightywise
+Tahmina Munni - TahminaM
+
 ### Prerequisites
 - Install PostgreSQL (Postgres) [[link](https://www.postgresql.org/download/)] - required to run the database
 - Install Postman [[link](https://www.postman.com/downloads/)] - optional tool for API testing 
