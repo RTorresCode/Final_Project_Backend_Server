@@ -19,6 +19,7 @@ const Campus = db.define("campus", {
   address: {
     type: Sequelize.STRING,
     allowNull: false,
+    defaultValue: "no address",
     validate: {
         notEmpty: true
     }
@@ -26,7 +27,7 @@ const Campus = db.define("campus", {
 
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: ""
+    defaultValue: "https://timesandtrendsacademy.com/wp-content/uploads/How-to-pick-the-best-fashion-designing-college-re850.jpg",
   },
 
   description: {
