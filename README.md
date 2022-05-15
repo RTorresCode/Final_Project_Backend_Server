@@ -56,4 +56,4 @@ can navigate to a single student view, and
 - [x] navigate to single campus view of the student’s enrolled campus
 - [x] delete the student
 - [x] edit the student’s information (including campus s/he is enrolled at)
-  - [x] with a validated form displaying real-time error messages
+- [x] with a validated form displaying real-time error messages
